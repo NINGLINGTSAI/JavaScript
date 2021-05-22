@@ -1,0 +1,14 @@
+#more{
+    background-color: rgb(54, 133, 85);
+    border: none;
+    font-size: 16px;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    }
+    #more:hover {
+        background-color: rgb(99, 146, 120);
+    }

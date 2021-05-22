@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css\more.css">
+    <link rel="stylesheet" href="img\instagram.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        .header {
+            height: 100px;
+        }
+
+        .Home {
+            text-decoration: none;
+            /*移除連結下的底線*/
+            font-family: 'Rubik', sans-serif;
+            /*更換google font的字體*/
+            color: rgb(102, 102, 102);
+            /*更改字體顏色*/
+            position: relative;
+            /*定位在相對的位置*/
+            left: 70%;
+            /*由左往右的移動*/
+            bottom: 50px;
+            /*由下往上的移動*/
+            padding: 20px;
+            /*內距*/
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: 65px;
+            font-family: 'Open Sans', sans-serif;
+            color: rgb(0, 0, 0);
+            font-weight: 500;
+            line-height: 0.5;
+        }
+
+        h1>span {
+            color: rgb(0, 112, 74);
+            font-weight: bolder;
+        }
+
+        p {
+            border-style: hidden;
+            width: 560px;
+            height: 100px;
+            line-height: 1.8;
+            font-size: 14px;
+            /* text-align: justify; */
+            padding: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .orange {
+            width: 90%;
+            height: 1000px;
+            background-color: rgb(228, 149, 135);
+            z-index: 0;
+            position: fixed;
+            left: 54%;
+            top: 160px;
+            border-radius: 49%;
+            transform: rotate(170deg);
+
+
+        }
+
+        .link {
+            position: fixed;
+            left: 92%;
+            top: 300px;
+            cursor: pointer;
+        }
+        .greencup{
+            position: fixed;
+            left: 68%;
+            top: 150px;
+        }
+        .pinkcup{
+            position: fixed;
+            left: 52%;
+            top: 570px;
+        }
+        .whitecup{
+            position: fixed;
+            left: 45%;
+            top: 570px;
+        }
+        .greencup2{
+            position: fixed;
+            left: 37%;
+            top: 570px;
+        }
+    </style>
+
+<body>
+    <header>
+        <img src="img\logo.png" alt="logo">
+        <nav>
+            <a href="#Home" class="Home">Home</a>
+            <a href="#Menu" class="Home">Menu</a>
+            <a href="#What's New" class="Home">What's New</a>
+            <a href="#Contact" class="Home">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <h1>It's not just Coffee</h1>
+        <h1>It's <span>Starbucks</span></h1>
+        <p>From just a narrow storefront, Starbucks offered some of the world’s finest fresh-roasted whole
+            bean coffees. The name, inspired by Moby Dick, evoked the romance of the high seas and the seafaring
+            tradition of the early coffee traders.</p>
+    </section>
+    <button id="more">MORE</button>
+    <section>
+        <div class="orange"></div>
+        <nav>
+            <nav class="link">
+                <img src="img\instagram.png" width=40px >
+                <a href="#instgrant" class="link"></a>
+                <br>
+                <img src="img\twitter.png" width=40px>
+                <br>
+                <img src="img\facebook.png" width=40px>
+            </nav>
+        </nav>
+        <nav>
+            <img src="img\img1.png" width=300px class="greencup">
+            <img src="img\img3.png" width=90px class="pinkcup">
+            <img src="img\img2.png" width=90px class="whitecup">
+            <img src="img\img1.png" width=95px class="greencup2">
+        </nav>
+    </section>
+
+
+
+
+</body>
+
+</html>
